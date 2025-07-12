@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+input, select {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.delete-btn {
+  background-color: #cc3300;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.employee-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#pagination-controls button {
+  padding: 5px 10px;
+  margin: 3px;
+  background: #eee;
+  border: none;
+  cursor: pointer;
+}
+
+#pagination-controls button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  input, select {
+    width: 100%;
+  }
+
+  .employee-card {
+    width: 100%;
+  }
+}
